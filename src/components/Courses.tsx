@@ -1,21 +1,32 @@
 import Image from "next/image";
 import { FollowerPointerCard } from "./ui/following-pointer";
 
-export function FollowingPointerDemo() {
+interface CourseItem {
+  author: string;
+  authorAvatar: string;
+  courseImg: string;
+  image: string;
+  title: string;
+  description: string;
+  price: string;
+}
+
+export function CourseList(item: CourseItem) {
   return (
     <div className="w-80 mx-auto">
       <FollowerPointerCard
         title={
           <TitleComponent
-            title={blogContent.author}
-            avatar={blogContent.authorAvatar}
+            title={item.author}
+            avatar={item.authorAvatar}
           />
         }
       >
-        <div className="relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-white hover:shadow-xl border border-zinc-100">
+        <div className="relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-white hover:shadow-xl border border-zinc-100 ">
+          <Image src={item.courseImg} width={500} height={200} key={Date.now()} alt="hello"/>
           <div className="w-full aspect-w-16 aspect-h-10 bg-gray-100 rounded-tr-lg rounded-tl-lg overflow-hidden xl:aspect-w-16 xl:aspect-h-10 relative">
             <Image
-              src={blogContent.image}
+              src={item.image}
               alt="thumbnail"
               layout="fill"
               objectFit="cover"
@@ -24,15 +35,15 @@ export function FollowingPointerDemo() {
           </div>
           <div className=" p-4">
             <h2 className="font-bold my-4 text-lg text-zinc-700">
-              {blogContent.title}
+              {item.title}
             </h2>
             <h2 className="font-normal my-4 text-sm text-zinc-500">
-              {blogContent.description}
+              {item.description}
             </h2>
             <div className="flex flex-row justify-between items-center mt-10">
-              <span className="text-sm text-gray-500">{blogContent.date}</span>
-              <div className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs">
-                Read More
+              <span className="text-xl text-black font-bold">{item.price}</span>
+              <div className="relative z-10 px-6 py-3 bg-navy text-white font-bold rounded-xl block text-s">
+                Buy Now
               </div>
             </div>
           </div>
@@ -42,16 +53,7 @@ export function FollowingPointerDemo() {
   );
 }
 
-const blogContent = {
-  slug: "amazing-tailwindcss-grid-layouts",
-  author: "Manu Arora",
-  date: "28th March, 2023",
-  title: "Amazing Tailwindcss Grid Layout Examples",
-  description:
-    "Grids are cool, but Tailwindcss grids are cooler. In this article, we will learn how to create amazing Grid layouts with Tailwindcs grid and React.",
-  image: "/vercel.svg",
-  authorAvatar: "/globe.svg",
-};
+
 
 const TitleComponent = ({
   title,

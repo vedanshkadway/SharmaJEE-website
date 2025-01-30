@@ -5,43 +5,43 @@ function Testimonial() {
     const musicSchoolTestimonials = [
         {
             quote:
-              'Joining the music school transformed my understanding of music and helped me to truly discover my own sound. The instructors are world-class!',
-            image:'/id5.jpeg',
-            name: 'Alex Johnson',
-            title: 'Guitar Student',
+              "SHARMAJEE's teaching methods made even the toughest JEE topics easy to grasp. His in-depth explanations and problem-solving techniques helped me gain confidence. Thanks to him, I secured a great rank!",
+            image:'/testimonial/id5.jpeg',
+            name: 'Aarav Mishra',
+            title: 'Dropper Batch',
           },
           {
             quote:
-              "The community and support at this school are unmatched. I've grown not just as a pianist, but also as a performer, thanks to their comprehensive approach.",
-            image:'/id4.jpeg',
-            name: 'Samantha Lee',
-            title: 'Piano Student',
+              "I struggled with Physics, but SHARMAJEE's unique way of explaining concepts like electromagnetism and mechanics made learning enjoyable. His mentorship was a game-changer for me!",
+            image:'/testimonial/id4.jpeg',
+            name: 'Ishaan Verma',
+            title: 'Foundation Course',
           },
           {
             quote:
-              "This school offered me the tools and confidence to take my singing to the next level. I'm endlessly grateful for the personalized coaching.",
-            image:'/id3.jpeg',
-            name: 'Michael Chen',
-            title: 'Vocal Student',
+              "Math was my weak point, but SHARMAJEE's structured approach and regular practice sessions improved my problem-solving speed. I can't thank him enough for helping me clear JEE with flying colors!",
+            image:'/testimonial/id3.jpeg',
+            name: 'Riya Gupta',
+            title: 'Regular Test Series + Crash Course',
           },
           {
             quote:
-              'As a violinist, finding the right mentor can be challenging, but this school matched me with a teacher who truly understands my goals and challenges.',
-            image:'/id2.jpeg',
-            name: 'Emily Taylor',
-            title: 'Violin Student',
+            "The personalized guidance and doubt-solving sessions at SHARMAJEE’s classes were incredible. He ensured we understood every topic thoroughly before moving ahead. His motivation kept me going!",
+            image:'/testimonial/id2.jpeg',
+            name: 'Neha Sharma',
+            title: 'Foundation Course + Doubt-Solving Sessions',
           },
           {
             quote:
-              'The production courses here opened my eyes to the intricacies of music production. Highly recommend for any aspiring producers!',
-            image:'/id1.jpeg',  
-            name: 'Chris Morales',
-            title: 'Music Production Student',
+             "JEE preparation felt overwhelming, but SHARMAJEE simplified everything with his conceptual clarity and strategic approach. His problem-solving techniques saved me a lot of time in the exam!",
+            image:'/testimonial/id1.jpeg',  
+            name: 'Kunal Yadav',
+            title: 'Dropper Batch',
           },
     ];
   return (
     <div className="h-[40rem] w-full dark:bg-black dark:bg-grid-white/[0.2] relative flex flex-col items-center justify-center overflow-hidden bg-black">
-    <h2 className="text-6xl font-bold text-white text-center mb-8 z-10">Hear from our Students</h2>
+    <h2 className="text-6xl font-bold text-white text-center mb-12 mt-2 z-10">Hear from our Students</h2>
     <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-6xl">
         <InfiniteMovingCards

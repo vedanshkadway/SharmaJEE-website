@@ -2,7 +2,7 @@
 import React from 'react'
 import courseData from "../data/music_courses.json"
 import Link from 'next/link'
-import { p } from 'framer-motion/client'
+// import { p } from 'framer-motion/client'
 import { BackgroundGradient } from './ui/background-gradient'
 
 interface Course{

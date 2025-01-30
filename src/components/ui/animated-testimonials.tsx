@@ -157,6 +157,7 @@ export const AnimatedTestimonials = ({
             >
               <IconArrowRight className="h-5 w-5 text-black dark:text-neutral-400 group-hover/button:-rotate-12 transition-transform duration-300" />
             </button>
+          <button className="relative z-10 px-6 py-3 bg-navy text-white font-bold rounded-xl block text-s" key={Date.now()}>Buy Now</button>
           </div>
         </div>
       </div>

@@ -39,6 +39,7 @@ export default {
       },
   		colors: {
         navy: '#001f5f', 
+        org: '#fe6a21',
         sagy: '#f8fafb',// You can name it 'navy' or anything you like
         
   			background: 'hsl(var(--background))',
