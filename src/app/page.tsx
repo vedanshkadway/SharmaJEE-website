@@ -1,6 +1,6 @@
 // import { FollowingPointerDemo } from "@/components/Courses";
 // import FeaturedCourses from "@/components/FeaturedCourses";
-import Header from "@/components/Header";
+// import Header from "@/components/Header";
 // import HeroSection from "@/components/HeroSection";
 import ListCourses from "@/components/ListCourses";
 import { StudyMaterial } from "@/components/StudyMaterial";
@@ -13,7 +13,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 export default function Home() {
   return (
      <main className="min-h-screen bg-white/[0.96] antialiased bg-grid-white/[0.02]">
-      <Header/>
+      
       <FrontHomePage/>
       {/* <HeroSection/> */}
       <ListCourses/>

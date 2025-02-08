@@ -11,13 +11,13 @@ export default function Header() {
                     </Link>
                     <div className="flex items-center lg:order-2">
                         <Link
-                            href={"#"}
+                            href={"/signin"}
                             className="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
                             Log in
                         </Link>
-                        <Link href="#"
-                            className="text-white bg-navy hover:bg-org focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+                        <Link href="/courses"
+                            className="text-white bg-navy hover:bg-org focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none transition ease-in-out duration-200"
                         >
                             Get started
                         </Link>
@@ -38,7 +38,7 @@ export default function Header() {
                             </li>
                             <li>
                                 {/* it has more functionality than Link alone  */}
-                                <Link href='/'
+                                <Link href='/courses'
                                     className="block py-2 pr-4 pl-3 duration-200 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-org lg:p-0">
                                         Courses
                                     
@@ -47,7 +47,7 @@ export default function Header() {
                             </li>
                             <li>
                                 {/* it has more functionality than Link alone  */}
-                                <Link href='/'
+                                <Link href='/blog'
                                     className="block py-2 pr-4 pl-3 duration-200 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-org lg:p-0">
                                         Blog
                                     
@@ -56,7 +56,7 @@ export default function Header() {
                             </li>
                             <li>
                                 {/* it has more functionality than Link alone  */}
-                                <Link href='/'
+                                <Link href='/contactus'
                                     className="block py-2 pr-4 pl-3 duration-200 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-org lg:p-0">
                                         Contact Us
                                     
@@ -65,7 +65,7 @@ export default function Header() {
                             </li>
                             <li>
                                 {/* it has more functionality than Link alone  */}
-                                <Link href='/'
+                                <Link href='/aboutus'
                                     className="block py-2 pr-4 pl-3 duration-200 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-org lg:p-0">
                                         About
                                     
