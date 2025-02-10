@@ -127,7 +127,7 @@
 // }
 
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 
@@ -166,7 +166,7 @@ const DummyContent = () => {
 
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                Sharma's JEE result is proof that dedication and persistence always pay off.
+                Sharma&#39;s JEE result is proof that dedication and persistence always pay off.
                 Success in JEE is not just about intelligence but the relentless effort Sharma put in.
               </span>{" "}
               Sharma JEE played a crucial role in my JEE preparation. The faculty is extremely knowledgeable, and their problem-solving techniques are top-notch. The test series closely matched the actual exam, boosting my confidence!
