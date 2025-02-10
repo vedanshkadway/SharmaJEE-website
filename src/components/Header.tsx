@@ -72,6 +72,33 @@ export default function Header() {
                                 </Link>
                                 {/* </Link> */}
                             </li>
+                            <li>
+                                {/* it has more functionality than Link alone  */}
+                                <Link href='/faqs'
+                                    className="block py-2 pr-4 pl-3 duration-200 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-org lg:p-0">
+                                        FAQS
+                                    
+                                </Link>
+                                {/* </Link> */}
+                            </li>
+                            <li>
+                                {/* it has more functionality than Link alone  */}
+                                <Link href='/result'
+                                    className="block py-2 pr-4 pl-3 duration-200 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-org lg:p-0">
+                                        Results
+                                    
+                                </Link>
+                                {/* </Link> */}
+                            </li>
+                            <li>
+                                {/* it has more functionality than Link alone  */}
+                                <Link href='/result2'
+                                    className="block py-2 pr-4 pl-3 duration-200 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-org lg:p-0">
+                                        Results2
+                                    
+                                </Link>
+                                {/* </Link> */}
+                            </li>
                            
                             
                             
