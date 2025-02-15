@@ -145,7 +145,7 @@ export function TimelineDemo() {
         <div>
          
           <div className="grid sm:grid-cols-2 gap-4">
-            <p>Two years of randomness defined my JEE preparation journey. With minimal effort initially but a determined push towards the end, I managed to pass my 12th CBSE Boards. However, my JEE results were disappointing - JEE Main Rank of around 96,000 and JEE Advanced score of 62, which meant I wasn't qualified. This was an absolutely shattering moment, forcing me to confront the harsh realities of life. In June, I turned to meditation and deep thinking, idolizing MS Dhoni and striving to embody his calm and confident demeanor.</p>
+            <p>Two years of randomness defined my JEE preparation journey. With minimal effort initially but a determined push towards the end, I managed to pass my 12th CBSE Boards. However, my JEE results were disappointing - JEE Main Rank of around 96,000 and JEE Advanced score of 62, which meant I wasn&apos;t qualified. This was an absolutely shattering moment, forcing me to confront the harsh realities of life. In June, I turned to meditation and deep thinking, idolizing MS Dhoni and striving to embody his calm and confident demeanor.</p>
             
            
           </div>
@@ -210,7 +210,7 @@ export function TimelineDemo() {
         <div>
          
           <div className="grid sm:grid-cols-2 gap-4">
-            <p>Moved to Odisha and joined Saint Lawrence School, Angul. This year also marked the beginning of my journey with a new language—Odia. Scored zero in my first test, but it wasn't the first time I had experienced such a setback.</p>
+            <p>Moved to Odisha and joined Saint Lawrence School, Angul. This year also marked the beginning of my journey with a new language—Odia. Scored zero in my first test, but it wasn&apos;t the first time I had experienced such a setback.</p>
             
             
           </div>
@@ -223,7 +223,7 @@ export function TimelineDemo() {
         <div>
          
           <div className="grid sm:grid-cols-2 gap-4">
-            <p>Received the first report card, which described me as an "intelligent student but very very naughty," setting the tone for the mischievous yet curious nature that defined my early years.</p>
+            <p>Received the first report card, which described me as an &quot;intelligent student but very very naughty&quot; setting the tone for the mischievous yet curious nature that defined my early years.</p>
             
            
           </div>
