@@ -1,7 +1,7 @@
 import { Results2 } from '@/components/Result2'
 import React from 'react'
 // import Image from 'next/image'
-import { CardWithForm } from './RankFilter'
+// import { CardWithForm } from './RankFilter'
 import  Carousel  from '@/components/Carousel'
 // import ResultCarousel from '@/components/ResultCarousel'
 
@@ -17,7 +17,7 @@ function FullPage() {
             <Carousel/>
             <div className='md:flex md:flex-row'>
 
-                    <CardWithForm />
+                    {/* <CardWithForm /> */}
 
 
                 <Results2 />

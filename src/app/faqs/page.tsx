@@ -1,9 +1,11 @@
+"use client"
 import React from 'react'
+import FAQPage from './Code'
 
 function faqs() {
   return (
     <div>
-        FAQS page
+        <FAQPage/>
       
     </div>
   )

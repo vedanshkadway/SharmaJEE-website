@@ -1,9 +1,10 @@
+import { TimelineDemo } from '@/components/Timeline'
 import React from 'react'
 
 function aboutus() {
   return (
     <div>
-        About-sharmaJEE
+        <TimelineDemo/>
       
     </div>
   )
