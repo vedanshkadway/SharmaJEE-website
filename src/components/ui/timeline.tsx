@@ -1,7 +1,6 @@
 "use client";
-import Intro from "@/app/aboutus/Intro";
 import {
-  useMotionValueEvent,
+  
   useScroll,
   useTransform,
   motion,
