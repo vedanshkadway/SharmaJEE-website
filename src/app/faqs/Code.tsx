@@ -18,9 +18,9 @@ const faqs = [
   
 
 const FAQPage = () => {
-  const [activeIndex, setActiveMarginIndex] = useState(null);
-  const toggleFAQ = index => {
-    setActiveMarginIndex(activeIndex === index ? null : index);
+  const [activeIndex, setActiveMarginIndex] = useState<number | null>(null);
+  const toggleFAQ = (index: number)=> {
+    setActiveMarginIndex(activeIndex === index ?  null: index);
   };
 
   return (
